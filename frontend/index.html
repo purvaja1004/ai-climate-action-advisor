@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>AI Climate Action Advisor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>AI Climate Action Advisor</h1>
+    <p class="subtitle">Enter a daily activity and get a concise climate impact analysis.</p>
+
+    <label for="activity">Describe your activity (e.g., "Drove 10 km to work")</label>
+    <textarea id="activity" rows="3" placeholder="I took a taxi to the supermarket..."></textarea>
+
+    <button id="analyze">Analyze</button>
+
+    <section id="output" class="output">
+      <h2>Analysis</h2>
+      <pre id="result">No analysis yet.</pre>
+    </section>
+
+    <footer class="notes">Tip: Keep the description short. Responses are concise.</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
