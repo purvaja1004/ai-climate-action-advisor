@@ -1,6 +1,5 @@
-flask>=2.0
-python-dotenv
-# Google Generative AI (Gemini) client - install if you want LLM calls
+flask
+langchain
+langgraph
+langchain-google-genai
 google-generativeai
-
-# If you prefer to pin exact versions, update as needed
